@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+
+int main () {
+
+
+int CantidadGatites = 2;
+
+
+
+printf( "Ingrese cantidad de gatito a adoptar \n" );
+scanf ( "%d",  &CantidadGatites );
+printf("se han adoptado %d gatites", CantidadGatites);
+
+return 0; 
+
+}
